@@ -24,6 +24,7 @@ function App() {
       <BackGround1 value = {increaseSpeed}/>
       <BackGround2 value = {increaseSpeed}/>
       <Bird value = {increaseSpeed}/>
+      <button className = "Button"  onClick={() => setIncreaseSpeed(increaseSpeed+1)}>Speed Up</button> 
     </div>
   );
 }
