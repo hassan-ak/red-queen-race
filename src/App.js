@@ -4,6 +4,8 @@ import React, {useState} from 'react';
 // Component Imports
 import { Sky } from './components/sky/Sky';
 import {EliceQueen} from './components/eliceQueen/EliceQueen';
+import { ForeGround1 } from './components/foreGround/ForeGround1';
+import { ForeGround2 } from './components/foreGround/ForeGround2';
 //Styles Imports
 import './App.css';
 
@@ -11,9 +13,11 @@ import './App.css';
 function App() {
   const [increaseSpeed, setIncreaseSpeed] = useState(0);
   return (
-    <div onClick={() => setIncreaseSpeed(increaseSpeed+1)}>
+    <div onClick={() => setIncreaseSpeed(increaseSpeed+1)} className="container">
       <Sky/>
       <EliceQueen value = {increaseSpeed}/>
+      <ForeGround1 value = {increaseSpeed}/>
+      <ForeGround2 value = {increaseSpeed}/>
     </div>
   );
 }
