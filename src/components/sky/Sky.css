@@ -1,0 +1,8 @@
+.sky {
+    background: #246e89 url("../../images/bg_sky.jpg") repeat-x  100% 100% / auto 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+  }
