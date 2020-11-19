@@ -10,6 +10,7 @@ import { BackGround1 } from './components/backGround/BackGround1';
 import { BackGround2 } from './components/backGround/BackGround2';
 //Styles Imports
 import './App.css';
+import { Bird } from './components/bird/Bird';
 
 // App Function
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ForeGround2 value = {increaseSpeed}/>
       <BackGround1 value = {increaseSpeed}/>
       <BackGround2 value = {increaseSpeed}/>
+      <Bird value = {increaseSpeed}/>
     </div>
   );
 }
